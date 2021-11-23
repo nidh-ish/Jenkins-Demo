@@ -7,7 +7,7 @@ class SampleTest(unittest.TestCase):
     def test_addition(self):
         a = 7
         b = 3
-        expected = 10
+        expected = 11
         self.assertEqual(addition(a, b), expected)
     def test_subtraction(self):
         a = 10
